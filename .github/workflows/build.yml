@@ -5,7 +5,7 @@ env:
 jobs:
   cmake:
     runs-on: msvc-wine
-    container:
+    container: msvc-wine
       volumes:
         - /var/run/pcscd/pcscd.comm:/var/run/pcscd/pcscd.comm
     steps:
